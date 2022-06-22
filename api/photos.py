@@ -24,6 +24,36 @@ class handler(BaseHTTPRequestHandler):
                 "photo_name": "elephant",
                 "photo_url": "https://via.placeholder.com/200x200/ddd",
             },
+            {
+                "id": 4,
+                "photo_name": "fox",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
+            {
+                "id": 5,
+                "photo_name": "weasel",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
+            {
+                "id": 6,
+                "photo_name": "zebra",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
+            {
+                "id": 7,
+                "photo_name": "dolphin",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
+            {
+                "id": 8,
+                "photo_name": "rabbit",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
+            {
+                "id": 9,
+                "photo_name": "owl",
+                "photo_url": "https://via.placeholder.com/200x200/ddd",
+            },
         ]
 
         message = json.dumps(photos)
