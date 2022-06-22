@@ -25,4 +25,6 @@ class handler(BaseHTTPRequestHandler):
 
         message = json.dumps(photos)
 
+        message = "whassup"
+
         self.wfile.write(message.encode())
