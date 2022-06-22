@@ -29,3 +29,11 @@ class handler(BaseHTTPRequestHandler):
         message = json.dumps(photos)
 
         self.wfile.write(message.encode())
+
+    def do_POST(self):
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.end_headers()
+
+        message = json.dumps({"status": "photo accepted"})
+        self.wfile.write(message.encode())
